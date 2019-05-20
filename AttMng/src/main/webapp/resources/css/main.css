@@ -1,0 +1,24 @@
+#main {
+	text-align: left;
+	height: 70%;
+}
+header {
+	height: 10%;
+	border: 1px solid red;
+	margin-bottom:1%;
+}
+footer {
+   height: 15%;
+   border: 1px solid red;
+   background-color: #d5dae2;
+   margin-top:1%;
+}
+#fttd01 {
+	width: 20%;
+}
+#ftimg01 {
+	width: 30%;
+}
+#ftimg02 {
+	width: 30%;
+}
