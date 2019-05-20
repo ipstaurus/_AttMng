@@ -26,11 +26,9 @@ hs_err_pid*
 
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
-/classes/
-/test-classes/
+
 .project
 .settings/
 
-Users/
-
+*/target/*
 
