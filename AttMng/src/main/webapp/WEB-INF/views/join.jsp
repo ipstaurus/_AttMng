@@ -121,29 +121,29 @@
 	<jsp:include page="common/header.jsp"></jsp:include>
 	<div id="join">
 		<div
-			style="font-family: verdana; border: 1px solid red; font-size: 20px; text-align: left; height: 100%; width: 100%">
+			style="font-family: verdana; border: 1px solid red; font-size: 15px; text-align: left; height: 100%; width: 100%">
 			<h1>社員登録画面</h1>
 			<form name="joindata" action="main" onsubmit="return validate();">
 				<table style="width: 60%; margin-left: 15%; margin-right: 20%;">
 					<tr>
-						<td id="labelloca" style="font-size:15pt;">ID</td>
-						<td>: <input id="ipsty" name="id" type="text" style="font-size:20pt;"></td>
+						<td id="labelloca" style="font-size:10pt;">ID</td>
+						<td>: <input id="ipsty" name="id" type="text" style="font-size:15pt;"></td>
 					</tr>
 					<tr>
-						<td id="labelloca" style="font-size:15pt;">パスワード</td>
-						<td>: <input id="ipsty" name="pw" type="password" style="font-size:20pt;"></td>
+						<td id="labelloca" style="font-size:10pt;">パスワード</td>
+						<td>: <input id="ipsty" name="pw" type="password" style="font-size:15pt;"></td>
 					</tr>
 					<tr>
-						<td id="labelloca" style="font-size:15pt;">パスワード確認</td>
-						<td>: <input id="ipsty" name="pwchk" type="password" style="font-size:20pt;"></td>
+						<td id="labelloca" style="font-size:10pt;">パスワード確認</td>
+						<td>: <input id="ipsty" name="pwchk" type="password" style="font-size:15pt;"></td>
 					</tr>
 					<tr>
-						<td id="labelloca" style="font-size:15pt;">名前</td>
-						<td>: <input id="ipsty" name="uname" type="text" style="font-size:20pt;"></td>
+						<td id="labelloca" style="font-size:10pt;">名前</td>
+						<td>: <input id="ipsty" name="uname" type="text" style="font-size:15pt;"></td>
 					</tr>
 					<tr>
-						<td id="labelloca" style="font-size:15pt;">会社</td>
-						<td>: <select id="ipsty" name=company style="font-size:20pt;">
+						<td id="labelloca" style="font-size:10pt;">会社</td>
+						<td>: <select id="ipsty" name=company style="font-size:15pt;">
 								<option value="">会社を選択してください。</option>
 								<option value="FOS">FOS</option>
 								<option value="PSS">PSS</option>
@@ -154,8 +154,8 @@
 						</select></td>
 					</tr>
 					<tr>
-						<td id="labelloca" style="font-size:15pt;">部署</td>
-						<td>: <select id="ipsty" name=department style="font-size:20pt;">
+						<td id="labelloca" style="font-size:10pt;">部署</td>
+						<td>: <select id="ipsty" name=department style="font-size:15pt;">
 								<option value="">部署を選択してください。</option>
 								<option value="dep01">戦略企画室</option>
 								<option value="dep02">営業部</option>
@@ -178,8 +178,8 @@
 						</select></td>
 					</tr>
 					<tr>
-						<td id="labelloca" style="font-size:15pt;">職位</td>
-						<td>: <select id="ipsty" name=position style="font-size:20pt;">
+						<td id="labelloca" style="font-size:10pt;">職位</td>
+						<td>: <select id="ipsty" name=position style="font-size:15pt;">
 								<option value="">職位を選択してください。</option>
 								<option value="pos01">会長</option>
 								<option value="pos02">社長</option>
@@ -196,34 +196,34 @@
 						</select></td>
 					</tr>
 					<tr>
-						<td id="labelloca" style="font-size:15pt;">メール</td>
-						<td>: <input id="ipsty" name="mail" type="text" style="font-size:20pt;"></td>
+						<td id="labelloca" style="font-size:10pt;">メール</td>
+						<td>: <input id="ipsty" name="mail" type="text" style="font-size:15pt;"></td>
 					</tr>
 					<tr>
-						<td id="labelloca" style="font-size:15pt;">性別</td>
-						<td>: 男性 <input type="radio" name="gender" value="men" style="font-size:20pt ; width:20px;height:20px"/> 女性
-							<input type="radio" name="gender" value="women" style="font-size:20pt ; width:20px;height:20px"/>
+						<td id="labelloca" style="font-size:10pt;">性別</td>
+						<td>: 男性 <input type="radio" name="gender" value="men" style="font-size:15pt ; width:15px;height:15px"/> 女性
+							<input type="radio" name="gender" value="women" style="font-size:15pt ; width:15px;height:15px"/>
 						</td>
 					</tr>
 					<tr>
-						<td id="labelloca" style="font-size:15pt;">入社日</td>
-						<td>: <input id="ipsty" type="date" name="userdate" value="" style="font-size:20pt;"/></td>
+						<td id="labelloca" style="font-size:10pt;">入社日</td>
+						<td>: <input id="ipsty" type="date" name="userdate" value="" style="font-size:15pt;"/></td>
 					</tr>
 					<tr>
-						<td id="labelloca" style="font-size:15pt;">電話番号</td>
+						<td id="labelloca" style="font-size:10pt;">電話番号</td>
 						<td>: <input id="ipsty" name="pnumber" type="text"
-							placeholder="'-'を入力してください。" style="font-size:20pt;"></td>
+							placeholder="'-'を入力してください。" style="font-size:15pt;"></td>
 					</tr>
 					<tr>
-						<td id="labelloca" style="font-size:15pt;">住所</td>
-						<td>: <input id="ipsty" name="address" type="text" style="font-size:20pt;"></td>
+						<td id="labelloca" style="font-size:10pt;">住所</td>
+						<td>: <input id="ipsty" name="address" type="text" style="font-size:15pt;"></td>
 					</tr>
 					
 				</table>
-				<table style="margin-left:34%">
+				<table style="margin-left:31.3%">
 					<tr>
-						<td><input type="button" value="キャンセル" style="font-size:20pt;width:250pt;height:30pt"> <input
-							type="submit" value="登録完了" style="font-size:20pt;width:250pt;height:30pt"></td>
+						<td><input type="button" value="キャンセル" style="font-size:15pt;width:225pt;height:25pt"> <input
+							type="submit" value="登録完了" style="font-size:15pt;width:225pt;height:25pt"></td>
 					</tr>
 				</table>
 			</form>
