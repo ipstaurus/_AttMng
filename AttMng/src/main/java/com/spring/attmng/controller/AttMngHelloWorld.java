@@ -26,10 +26,7 @@ public class AttMngHelloWorld {
 	public String main() {		
 		return "main";
 	}
-	@RequestMapping(value = "/login", method = RequestMethod.GET)
-	public String loginpage() {
-		return "login";
-	}
+	
 	@RequestMapping(value = "/join", method = RequestMethod.GET)
 	public String joinpage() {
 		return "join";

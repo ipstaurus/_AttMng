@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="LoginMapper">
+
+	<!-- ログイン関連SQLクエリ -->
+
+	<select id="loginCheck"
+		resultType="com.spring.attmng.dto.EmployeeDTO">
+		select *
+		from t_employee emp
+		where emp.id = #{id}
+	</select>
+
+	<select id="login_Info"
+		resultType="com.spring.attmng.dto.EmployeeDTO">
+		select emp_name
+		from t_employee emp
+		where emp.id = #{id}
+	</select>
+
+
+</mapper>
